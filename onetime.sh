@@ -1,5 +1,5 @@
 git init
-git remote add origin https://github.com/aadityataparia/Auto-git-pull.git
-git fetch
-git branch --set-upstream-to origin/master
+git remote add origin $1
+git merge origin/master
+git branch --set-upstream-to origin/master master
 git remote update -p; git merge --ff-only @{u}
