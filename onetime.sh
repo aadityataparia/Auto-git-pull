@@ -7,3 +7,4 @@ git checkout -b master
 git checkout master
 git merge origin/master --ff-only @{u}
 git branch --set-upstream-to origin/master master
+chmod -R 770 .git
