@@ -8,3 +8,4 @@ Do git pull on push event to a repo
 4. Run `onetime.sh #{https git url}` from shell once as superuser
 5. Set webhook in your repo for push event to `git.php` location
 6. You are done, now everytime there is a push event on your repo, server will automatically pull from your repo.
+7. You can add other commands in git.sh file which you would like to execute after pulling, like starting a server etc.
