@@ -1,3 +1,4 @@
+#!/bin/sh
 git init
 git remote add origin $1
 git fetch origin
